@@ -1,0 +1,222 @@
+# 🐍 Introduction to Python
+
+## What is Python?
+
+Python is a high-level, interpreted, object-oriented, and general-purpose programming language created by Guido van Rossum in 1991.
+
+Python is known for its:
+
+* Simple syntax
+* Readability
+* Large community support
+* Extensive libraries and frameworks
+
+It is one of the most popular programming languages used in:
+
+* Web Development
+* Data Science
+* Machine Learning
+* Artificial Intelligence
+* Automation
+* Cybersecurity
+* Software Development
+
+---
+
+# Installing Python
+
+## Step 1: Download Python
+
+Visit the official Python website:
+
+https://www.python.org/downloads/
+
+Download the latest stable version for your operating system.
+
+---
+
+## Step 2: Install Python
+
+### Windows
+
+1. Run the downloaded installer.
+2. Check **"Add Python to PATH"**.
+3. Click **Install Now**.
+4. Wait for installation to complete.
+
+### Linux
+
+```bash
+sudo apt update
+sudo apt install python3
+```
+
+### macOS
+
+```bash
+brew install python
+```
+
+---
+
+## Step 3: Verify Installation
+
+Open Terminal or Command Prompt and run:
+
+```bash
+python --version
+```
+
+or
+
+```bash
+python3 --version
+```
+
+Example Output:
+
+```text
+Python 3.13.0
+```
+
+---
+
+# Running Python Programs
+
+## Method 1: Python Interactive Shell
+
+Open terminal and type:
+
+```bash
+python
+```
+
+Example:
+
+```python
+>>> print("Hello World")
+Hello World
+```
+
+Exit:
+
+```python
+exit()
+```
+
+---
+
+## Method 2: Running a Python File
+
+Create a file:
+
+```text
+hello.py
+```
+
+Add code:
+
+```python
+print("Hello World")
+```
+
+Run:
+
+```bash
+python hello.py
+```
+
+Output:
+
+```text
+Hello World
+```
+
+---
+
+# Python IDEs
+
+An IDE (Integrated Development Environment) helps write, run, and debug code efficiently.
+
+---
+
+## VS Code
+
+Visual Studio Code is the most popular Python editor.
+
+### Features
+
+* Lightweight
+* Fast
+* Extensions Support
+* Git Integration
+* Debugging Tools
+
+### Installation
+
+1. Download VS Code.
+2. Install Python Extension.
+3. Create a Python file.
+4. Run the code.
+
+---
+
+## PyCharm
+
+PyCharm is a professional Python IDE.
+
+### Features
+
+* Intelligent Code Completion
+* Built-in Debugger
+* Refactoring Tools
+* Project Management
+
+### Editions
+
+* Community Edition (Free)
+* Professional Edition (Paid)
+
+---
+
+# VS Code vs PyCharm
+
+| Feature                  | VS Code         | PyCharm           |
+| ------------------------ | --------------- | ----------------- |
+| Free                     | Yes             | Community Edition |
+| Speed                    | Fast            | Moderate          |
+| Extensions               | Large Ecosystem | Built-In Features |
+| Beginner Friendly        | Yes             | Yes               |
+| Professional Development | Good            | Excellent         |
+
+---
+
+# First Python Program
+
+```python
+print("Hello, World!")
+```
+
+Output:
+
+```text
+Hello, World!
+```
+
+---
+
+# Summary
+
+* Python is an easy-to-learn programming language.
+* Install Python from the official website.
+* Run programs using the terminal or an IDE.
+* VS Code and PyCharm are the most popular Python IDEs.
+* Start by writing simple programs and gradually move to advanced concepts.
+
+## Next Topic
+
+* Variables
+* Data Types
+* Input/Output
+* Operators
+* Conditional Statements
