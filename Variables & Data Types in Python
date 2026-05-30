@@ -1,0 +1,428 @@
+# 🐍 Variables & Data Types in Python
+
+## What is a Variable?
+
+A variable is a container used to store data in memory.
+
+### Syntax
+
+```python
+variable_name = value
+```
+
+### Example
+
+```python
+name = "Anup"
+age = 20
+cgpa = 8.5
+
+print(name)
+print(age)
+print(cgpa)
+```
+
+### Output
+
+```text
+Anup
+20
+8.5
+```
+
+---
+
+# Variable Naming Rules
+
+✅ Valid Names
+
+```python
+name = "Anup"
+student_age = 20
+_age = 20
+cgpa1 = 8.5
+```
+
+❌ Invalid Names
+
+```python
+1name = "Anup"
+student-age = 20
+class = "CSE"
+```
+
+### Rules
+
+* Must start with a letter or underscore (_)
+* Cannot start with a number
+* Cannot contain spaces
+* Cannot use Python keywords
+* Variable names are case-sensitive
+
+Example:
+
+```python
+name = "Anup"
+Name = "Python"
+
+print(name)
+print(Name)
+```
+
+These are treated as different variables.
+
+---
+
+# What are Data Types?
+
+Data types define the kind of value stored in a variable.
+
+Python automatically determines the data type.
+
+---
+
+# 1. Integer (int)
+
+Stores whole numbers.
+
+### Example
+
+```python
+age = 20
+marks = 95
+
+print(type(age))
+```
+
+### Output
+
+```text
+<class 'int'>
+```
+
+---
+
+# 2. Float (float)
+
+Stores decimal numbers.
+
+### Example
+
+```python
+cgpa = 8.75
+price = 99.99
+
+print(type(cgpa))
+```
+
+### Output
+
+```text
+<class 'float'>
+```
+
+---
+
+# 3. String (str)
+
+Stores text enclosed in quotes.
+
+### Example
+
+```python
+name = "Anup"
+college = 'VTU'
+
+print(type(name))
+```
+
+### Output
+
+```text
+<class 'str'>
+```
+
+---
+
+# String Operations
+
+### Concatenation
+
+```python
+first = "Hello"
+second = "Python"
+
+print(first + " " + second)
+```
+
+Output:
+
+```text
+Hello Python
+```
+
+---
+
+# 4. Boolean (bool)
+
+Stores True or False values.
+
+### Example
+
+```python
+is_student = True
+is_admin = False
+
+print(type(is_student))
+```
+
+### Output
+
+```text
+<class 'bool'>
+```
+
+---
+
+# 5. Complex (complex)
+
+Stores complex numbers.
+
+### Example
+
+```python
+num = 2 + 3j
+
+print(type(num))
+```
+
+### Output
+
+```text
+<class 'complex'>
+```
+
+---
+
+# Multiple Variable Assignment
+
+### Assign Same Value
+
+```python
+x = y = z = 10
+
+print(x, y, z)
+```
+
+Output:
+
+```text
+10 10 10
+```
+
+---
+
+### Assign Multiple Values
+
+```python
+name, age, cgpa = "Anup", 20, 8.5
+
+print(name)
+print(age)
+print(cgpa)
+```
+
+---
+
+# Type Conversion
+
+Convert one data type into another.
+
+---
+
+## String to Integer
+
+```python
+num = "10"
+
+x = int(num)
+
+print(type(x))
+```
+
+---
+
+## Integer to Float
+
+```python
+x = 10
+
+y = float(x)
+
+print(y)
+```
+
+Output:
+
+```text
+10.0
+```
+
+---
+
+## Float to Integer
+
+```python
+price = 99.99
+
+x = int(price)
+
+print(x)
+```
+
+Output:
+
+```text
+99
+```
+
+---
+
+## Integer to String
+
+```python
+age = 20
+
+x = str(age)
+
+print(type(x))
+```
+
+---
+
+# Checking Data Types
+
+Use the `type()` function.
+
+### Example
+
+```python
+name = "Python"
+age = 20
+cgpa = 8.5
+
+print(type(name))
+print(type(age))
+print(type(cgpa))
+```
+
+Output:
+
+```text
+<class 'str'>
+<class 'int'>
+<class 'float'>
+```
+
+---
+
+# User Input and Data Types
+
+By default, `input()` returns a string.
+
+### Example
+
+```python
+age = input("Enter Age: ")
+
+print(type(age))
+```
+
+Output:
+
+```text
+<class 'str'>
+```
+
+### Convert to Integer
+
+```python
+age = int(input("Enter Age: "))
+
+print(type(age))
+```
+
+Output:
+
+```text
+<class 'int'>
+```
+
+---
+
+# Practice Programs
+
+### Beginner
+
+1. Store and print your name.
+2. Store and print your age.
+3. Store and print your CGPA.
+4. Add two integers.
+5. Multiply two floating-point numbers.
+6. Concatenate two strings.
+7. Check the type of different variables.
+8. Convert string to integer.
+9. Convert integer to float.
+10. Take user input and display it.
+
+---
+
+# Quick Revision
+
+## Variables
+
+* Used to store data.
+* Created using `=` operator.
+
+Example:
+
+```python
+name = "Anup"
+```
+
+---
+
+## Data Types
+
+| Data Type | Example  |
+| --------- | -------- |
+| int       | 10       |
+| float     | 3.14     |
+| str       | "Python" |
+| bool      | True     |
+| complex   | 2+3j     |
+
+---
+
+## Important Functions
+
+```python
+type()
+int()
+float()
+str()
+bool()
+input()
+print()
+```
+
+---
+
+# Summary
+
+* Variables store data in memory.
+* Python is dynamically typed.
+* Main data types are int, float, str, bool, and complex.
+* Use `type()` to check data types.
+* Use type conversion functions (`int()`, `float()`, `str()`) when needed.
+* User input is always received as a string unless converted.
