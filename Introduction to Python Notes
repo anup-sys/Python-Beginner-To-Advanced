@@ -1,0 +1,328 @@
+# 🐍 Introduction to Python Notes
+
+## What is Python?
+
+Python is a high-level, interpreted, object-oriented, and general-purpose programming language created by Guido van Rossum in 1991.
+
+Python is one of the most popular programming languages because of its simplicity and readability.
+
+---
+
+# Why Learn Python?
+
+* Easy to Learn and Use
+* Beginner Friendly
+* Large Community Support
+* Open Source
+* Cross-Platform
+* High Industry Demand
+* Versatile Language
+
+---
+
+# Applications of Python
+
+## Web Development
+
+Frameworks:
+
+* Django
+* Flask
+* FastAPI
+
+## Data Science
+
+Libraries:
+
+* NumPy
+* Pandas
+
+## Machine Learning & AI
+
+Libraries:
+
+* Scikit-Learn
+* TensorFlow
+* PyTorch
+
+## Automation
+
+* Task Automation
+* File Handling Automation
+* Web Scraping
+
+## Cybersecurity
+
+* Security Tools
+* Network Automation
+
+## Game Development
+
+* Pygame
+
+---
+
+# Features of Python
+
+## 1. Simple Syntax
+
+Example:
+
+```python
+print("Hello World")
+```
+
+Python code is easy to read and write.
+
+---
+
+## 2. Interpreted Language
+
+Python executes code line by line, making debugging easier.
+
+---
+
+## 3. Object-Oriented
+
+Supports:
+
+* Classes
+* Objects
+* Inheritance
+* Polymorphism
+
+---
+
+## 4. Portable
+
+Python programs can run on:
+
+* Windows
+* Linux
+* macOS
+
+---
+
+## 5. Open Source
+
+Python is free to use and modify.
+
+---
+
+# Installing Python
+
+### Step 1
+
+Download Python from:
+
+https://www.python.org
+
+### Step 2
+
+Verify Installation:
+
+```bash
+python --version
+```
+
+or
+
+```bash
+python3 --version
+```
+
+---
+
+# First Python Program
+
+```python
+print("Hello, World!")
+```
+
+Output:
+
+```text
+Hello, World!
+```
+
+---
+
+# Python Syntax Rules
+
+## Case Sensitive
+
+```python
+name = "Anup"
+Name = "Python"
+```
+
+Both variables are different.
+
+---
+
+## Indentation
+
+Correct:
+
+```python
+if True:
+    print("Hello")
+```
+
+Incorrect:
+
+```python
+if True:
+print("Hello")
+```
+
+Python uses indentation to define code blocks.
+
+---
+
+# Python Keywords
+
+Examples:
+
+```python
+if
+else
+for
+while
+break
+continue
+class
+def
+return
+import
+```
+
+Check all keywords:
+
+```python
+import keyword
+print(keyword.kwlist)
+```
+
+---
+
+# Comments
+
+## Single Line Comment
+
+```python
+# This is a comment
+```
+
+## Multi-Line Comment
+
+```python
+"""
+This is
+a multi-line
+comment
+"""
+```
+
+---
+
+# Variables
+
+Variables are used to store data.
+
+```python
+name = "Anup"
+age = 20
+cgpa = 8.5
+```
+
+---
+
+# Data Types
+
+| Data Type | Example  |
+| --------- | -------- |
+| int       | 10       |
+| float     | 3.14     |
+| str       | "Python" |
+| bool      | True     |
+| complex   | 2+3j     |
+
+Example:
+
+```python
+age = 20
+price = 99.99
+name = "Anup"
+is_student = True
+```
+
+---
+
+# Input and Output
+
+## Output
+
+```python
+print("Welcome")
+```
+
+## Input
+
+```python
+name = input("Enter your name: ")
+print(name)
+```
+
+---
+
+# Advantages of Python
+
+* Easy to Learn
+* Readable Syntax
+* Large Community
+* Rich Libraries
+* Cross Platform
+* High Demand
+
+---
+
+# Disadvantages of Python
+
+* Slower than C/C++
+* High Memory Usage
+* Not Ideal for Mobile Development
+
+---
+
+# Companies Using Python
+
+* Google
+* Netflix
+* Instagram
+* Spotify
+* Dropbox
+* Reddit
+
+---
+
+# Summary
+
+Python is a powerful, easy-to-learn programming language used in software development, automation, data science, machine learning, artificial intelligence, web development, and cybersecurity.
+
+It is one of the best programming languages for beginners and professionals alike.
+
+---
+
+# Next Topics
+
+* Variables
+* Data Types
+* Operators
+* Input/Output
+* Conditional Statements
+* Loops
+* Functions
+* Lists
+* Dictionaries
+* Object-Oriented Programming (OOP)
