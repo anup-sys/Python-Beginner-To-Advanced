@@ -1,0 +1,455 @@
+# 🐍 Python Fundamentals Notes
+
+## Introduction
+
+Python Fundamentals are the basic concepts every Python programmer should learn before moving to advanced topics.
+
+These concepts form the foundation for Web Development, Data Science, Machine Learning, Automation, and Software Development.
+
+---
+
+# 1. Variables
+
+Variables are used to store data.
+
+### Example
+
+```python
+name = "Anup"
+age = 20
+cgpa = 8.5
+```
+
+### Rules for Naming Variables
+
+* Must start with a letter or underscore (_)
+* Cannot start with a number
+* Case-sensitive
+
+Valid:
+
+```python
+student_name = "Anup"
+_age = 20
+```
+
+Invalid:
+
+```python
+1name = "Anup"
+```
+
+---
+
+# 2. Data Types
+
+Python supports multiple data types.
+
+## Integer (int)
+
+```python
+age = 20
+```
+
+## Float
+
+```python
+cgpa = 8.5
+```
+
+## String
+
+```python
+name = "Anup"
+```
+
+## Boolean
+
+```python
+is_student = True
+```
+
+## Complex
+
+```python
+num = 2 + 3j
+```
+
+---
+
+# 3. Input and Output
+
+## Output
+
+```python
+print("Hello World")
+```
+
+## Input
+
+```python
+name = input("Enter your name: ")
+print(name)
+```
+
+### Input with Type Conversion
+
+```python
+age = int(input("Enter age: "))
+```
+
+---
+
+# 4. Operators
+
+## Arithmetic Operators
+
+```python
++
+-
+*
+/
+%
+**
+//
+```
+
+Example:
+
+```python
+a = 10
+b = 3
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+```
+
+---
+
+## Comparison Operators
+
+```python
+==
+!=
+>
+<
+>=
+<=
+```
+
+Example:
+
+```python
+print(10 > 5)
+```
+
+---
+
+## Logical Operators
+
+```python
+and
+or
+not
+```
+
+Example:
+
+```python
+print(True and False)
+```
+
+---
+
+# 5. Conditional Statements
+
+Used for decision making.
+
+## if Statement
+
+```python
+age = 18
+
+if age >= 18:
+    print("Eligible")
+```
+
+---
+
+## if-else
+
+```python
+num = 5
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+```
+
+---
+
+## if-elif-else
+
+```python
+marks = 85
+
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+else:
+    print("C")
+```
+
+---
+
+# 6. Loops
+
+Loops are used to execute code repeatedly.
+
+## for Loop
+
+```python
+for i in range(1, 6):
+    print(i)
+```
+
+Output:
+
+```text
+1
+2
+3
+4
+5
+```
+
+---
+
+## while Loop
+
+```python
+i = 1
+
+while i <= 5:
+    print(i)
+    i += 1
+```
+
+---
+
+# 7. Functions
+
+Functions are reusable blocks of code.
+
+## Function Definition
+
+```python
+def greet():
+    print("Welcome")
+```
+
+## Calling Function
+
+```python
+greet()
+```
+
+---
+
+## Function with Parameters
+
+```python
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
+```
+
+---
+
+# 8. Lists
+
+Lists store multiple values.
+
+```python
+numbers = [10, 20, 30, 40]
+```
+
+## Access Elements
+
+```python
+print(numbers[0])
+```
+
+## Add Element
+
+```python
+numbers.append(50)
+```
+
+## Remove Element
+
+```python
+numbers.remove(20)
+```
+
+---
+
+# 9. Tuples
+
+Tuples are immutable.
+
+```python
+data = (10, 20, 30)
+```
+
+Access:
+
+```python
+print(data[0])
+```
+
+---
+
+# 10. Sets
+
+Sets store unique values.
+
+```python
+nums = {1, 2, 3, 4}
+```
+
+Add:
+
+```python
+nums.add(5)
+```
+
+---
+
+# 11. Dictionaries
+
+Store data as key-value pairs.
+
+```python
+student = {
+    "name": "Anup",
+    "age": 20
+}
+```
+
+Access:
+
+```python
+print(student["name"])
+```
+
+Add:
+
+```python
+student["city"] = "Mumbai"
+```
+
+---
+
+# 12. Type Conversion
+
+Convert one data type into another.
+
+```python
+x = "10"
+
+num = int(x)
+```
+
+Examples:
+
+```python
+int()
+float()
+str()
+bool()
+```
+
+---
+
+# 13. Comments
+
+## Single-Line Comment
+
+```python
+# This is a comment
+```
+
+## Multi-Line Comment
+
+```python
+"""
+Multi-line
+Comment
+"""
+```
+
+---
+
+# 14. Basic Exception Handling
+
+```python
+try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+```
+
+---
+
+# Quick Revision
+
+✅ Variables
+
+✅ Data Types
+
+✅ Input/Output
+
+✅ Operators
+
+✅ Conditional Statements
+
+✅ Loops
+
+✅ Functions
+
+✅ Lists
+
+✅ Tuples
+
+✅ Sets
+
+✅ Dictionaries
+
+✅ Type Conversion
+
+✅ Comments
+
+✅ Exception Handling
+
+---
+
+# Practice Programs
+
+1. Print Hello World
+2. Add Two Numbers
+3. Swap Two Numbers
+4. Find Largest Number
+5. Check Even/Odd
+6. Multiplication Table
+7. Factorial
+8. Fibonacci Series
+9. Prime Number Check
+10. Calculator Using Functions
+
+These Python Fundamentals are enough to build a strong foundation before learning OOP, File Handling, Modules, and Advanced Python.
